@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Ethnocentric";
+}
+
+/* -------------------------Header------------------------- */
+
+header{
+    background-image:url(../img/hero.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 25vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.dropdown_menu{
+    display: none;
+}
+
+.medi{
+    color: white;
+}
+
+.head_logo>a{
+    text-decoration: none;
+}
+
+.head_menu{
+    display: flex;
+    justify-content: center;
+}
+
+.menu_elements{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.menu_elements>a{
+    text-decoration: none;
+    color: white;
+}
+
+/* -------------------------Main------------------------- */
+
+.our_products{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 10px;
+}
+
+.product_text{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.products_img{
+    margin-left: 5%;
+}
+
+.imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.img_left{
+    width: auto;
+}
+
+.img_right{
+    width: auto;
+    margin-left: 20px;
+}
+
+
+.button_see_more{
+    margin: 5%;
+    text-align: center;
+}
+
+.button_see_more>button{
+    font-size: 20px;
+    padding: 14px 35px;
+    border: 1.5px solid #0f0;
+    color: #3cff3c;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button_see_more>button:hover{
+    color: white;
+    background-color:#3cff3c;
+}
+
+
+
+
+/* -------------------------Footer------------------------- */
+
+
+
+
+.contact_area{
+    background-image: url(../img/info-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 75px;
+}
+
+.info_logo{
+    width: 17%;
+}
+
+.contacts_info{
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.contacts_icon{
+    width: 7%;
+    margin-top: 40px;
+}
+
+.contacts_text{
+    color: white;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.end{
+    text-align: center;
+    margin: 20px 0 100px 0;
+    font-weight: 300;
+}

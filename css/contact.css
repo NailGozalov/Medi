@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Ethnocentric";
+}
+
+
+header{
+    background-image:url(../img/hero.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 25vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.dropdown_menu{
+    display: none;
+}
+
+.medi{
+    color: white;
+}
+
+.head_logo>a{
+    text-decoration: none;
+}
+
+.head_menu{
+    display: flex;
+    justify-content: center;
+}
+
+.menu_elements{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.menu_elements>a{
+    text-decoration: none;
+    color: white;
+}
+
+/* -------------------main------------------- */
+
+
+
+.parent{
+    background-image:url(../img/contact-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 95vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact_us_head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    margin-top: 40px;
+}
+
+.contact_us_head>h3{
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.contact_form{
+    width: 60%;
+}
+
+.contact_input{
+    width: 60%;
+    height: 50px;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    outline: none;    
+}
+
+.contact_mail{
+    height: 150px;
+    border-radius: 25px;
+}
+
+.contact_button{
+    width: 18%;
+    height: 60px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background-color: #e92c06;
+    border: 1px solid #e92c06;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.contact_button:hover{
+    background-color: transparent;
+    color: #e92c06;
+}
+
+
+
+
+
+/* -------------------footer------------------- */
+
+
+
+.contact_area{
+    background-image: url(../img/info-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 75px;
+}
+
+.info_logo{
+    width: 17%;
+}
+
+.contacts_info{
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.contacts_icon{
+    width: 7%;
+    margin-top: 40px;
+}
+
+.contacts_text{
+    color: white;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.end{
+    text-align: center;
+    margin: 20px 0 100px 0;
+    font-weight: 300;
+}

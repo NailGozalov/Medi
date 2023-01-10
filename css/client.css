@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Ethnocentric";
+}
+
+
+header{
+    background-image:url(../img/hero.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 25vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.dropdown_menu{
+    display: none;
+}
+
+.medi{
+    color: white;
+}
+
+.head_logo>a{
+    text-decoration: none;
+}
+
+.head_menu{
+    display: flex;
+    justify-content: center;
+}
+
+.menu_elements{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.menu_elements>a{
+    text-decoration: none;
+    color: white;
+}
+
+/* -------------------main------------------- */
+
+.testimonial{
+    margin: 60px 0 40px 0;
+}
+
+.icon_testimonial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon_testimonial>h3{
+    font-size: 30px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.slide{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+}
+
+
+.img_circle{
+    background: linear-gradient(to right,#afad04,#5da802);
+    border-radius: 100%;
+    border: 30px solid transparent;
+}
+
+.morsw{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to bottom,#afad04,#5da802);
+    margin-left: 20px;
+}
+
+.morsw_column{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    color: white;
+    font-weight: 900;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.morsw_row{
+    color: white;
+    line-height: 1.5;
+}
+
+
+
+/* -------------------footer------------------- */
+
+
+
+.contact_area{
+    background-image: url(../img/info-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 75px;
+}
+
+.info_logo{
+    width: 17%;
+}
+
+.contacts_info{
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.contacts_icon{
+    width: 7%;
+    margin-top: 40px;
+}
+
+.contacts_text{
+    color: white;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.end{
+    text-align: center;
+    margin: 20px 0 100px 0;
+    font-weight: 300;
+}

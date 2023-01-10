@@ -1,0 +1,442 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Ethnocentric";
+}
+
+body{
+    background-color: white !important;
+}
+
+
+
+header{
+    background-image:url(../img/hero.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 98vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.medi{
+    color: white;
+}
+
+.head_logo>a{
+    text-decoration: none;
+}
+
+.head_menu{
+    display: flex;
+    justify-content: center;
+}
+
+.menu_elements{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.menu_elements>a{
+    text-decoration: none;
+    color: white;
+}
+.dropdown_menu{
+    display: none;
+}
+
+
+
+.head_herbal{
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+}
+
+.head_text_herbal{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 85px;
+    font-weight: 500;
+}
+
+.natural{
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.head_button{
+    margin-top: 55px;
+    font-size: 17px;
+    padding: 12px 55px;
+    width: 15%;
+    border: 1.5px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.head_button:hover{
+    background-color: white;
+    color: #3cff3c;
+
+}
+
+/* -----------------------------------Main----------------------------------- */
+
+/* -------------------Contact---------------- */
+
+.parent{
+    background-image:url(../img/contact-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 95vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact_us_head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    margin-top: 40px;
+}
+
+.contact_us_head>h3{
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.contact_form{
+    width: 60%;
+}
+
+.contact_input{
+    width: 60%;
+    height: 50px;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    outline: none;    
+}
+
+.contact_mail{
+    height: 150px;
+    border-radius: 25px;
+}
+
+.contact_button{
+    width: 18%;
+    height: 60px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background-color: #e92c06;
+    border: 1px solid #e92c06;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.contact_button:hover{
+    background-color: transparent;
+    color: #e92c06;
+}
+
+/* -------------------About-------------------- */
+
+
+.about_bar{
+    display: flex;
+    justify-content: center;
+}
+
+.about_us_area{
+    background-image: url(../img/about.jpg);
+    background-size: auto 100%;
+    background-position: center;
+    height: 100vh;
+    width: 85%;
+    border: solid gray 1px;
+    margin: 0 0 60px 0;
+    padding: 30px;
+    position: relative;
+    top: -70px;
+    border: none;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.21);
+}
+
+.icon_about{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.icon_about>h3{
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.under_icon_text{
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    width: 45%;
+    font-size: 1rem;
+}
+
+.under_icon_text>h3{
+    font-weight: 500;
+}
+
+.foot_text{
+    width: 65%;
+    font-size: 15px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.foot_text>h3{
+    font-weight: 500;
+}
+
+.button_read_more{
+    position: absolute;
+    bottom: 60px;
+    left: 80px;
+}
+
+.button_read_more>button{
+    font-size: 18px;
+    padding: 14px 35px;
+    border: 1.5px solid #0f0;
+    color: #3cff3c;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button_read_more>button:hover{
+    color: white;
+    background-color:#3cff3c;
+}
+
+/* -------------------Client------------------- */
+
+
+.testimonial{
+    margin: 60px 0 40px 0;
+}
+
+.icon_testimonial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon_testimonial>h3{
+    font-size: 30px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.slide{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+}
+
+
+
+
+.img_circle{
+    background: linear-gradient(to right,#afad04,#5da802);
+    border-radius: 100%;
+    border: 30px solid transparent;
+}
+
+.morsw{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to bottom,#afad04,#5da802);
+    margin-left: 20px;
+}
+
+.morsw_column{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    color: white;
+    font-weight: 900;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.morsw_row{
+    color: white;
+    line-height: 1.5;
+}
+
+
+/* -------------------Product------------------- */
+
+
+.our_products{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 10px;
+}
+
+.product_text{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.products_img{
+    margin-left: 5%;
+}
+
+.imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.img_left{
+    width: auto;
+}
+
+.img_right{
+    width: auto;
+    margin-left: 20px;
+}
+
+
+.button_see_more{
+    margin: 5%;
+    text-align: center;
+}
+
+.button_see_more>button{
+    font-size: 20px;
+    padding: 14px 35px;
+    border: 1.5px solid #0f0;
+    color: #3cff3c;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button_see_more>button:hover{
+    color: white;
+    background-color:#3cff3c;
+}
+
+
+/* -----------------Why Choose Us--------------*/
+.why_choose{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.choose_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.choose_head>h3{
+    font-weight: 100;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.choose_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose_text>h3{
+    font-size: 20px;
+    font-weight: 400;
+    width: 80%;
+    text-align: center;
+}
+
+.why_img{
+    width: 100%;
+}
+
+
+.why_button>button{
+    font-size: 18px;
+    padding: 14px 35px;
+    border: 1.5px solid #0f0;
+    color: #3cff3c;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.why_button>button:hover{
+    color: white;
+    background-color:#3cff3c;
+}
+
+/* -------------------footer------------------- */
+
+
+
+.contact_area{
+    background-image: url(../img/info-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 75px;
+}
+
+.info_logo{
+    width: 17%;
+}
+
+.contacts_info{
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.contacts_icon{
+    width: 7%;
+    margin-top: 40px;
+}
+
+.contacts_text{
+    color: white;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.end{
+    text-align: center;
+    margin: 20px 0 100px 0;
+    font-weight: 300;
+}
+
